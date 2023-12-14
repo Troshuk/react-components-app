@@ -1,0 +1,43 @@
+:root {
+    --statistic-item-count: 4;
+}
+
+.section {
+    background-color: #fff;
+    margin: 100px auto;
+    max-width: 300px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #575d64;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    width: calc((100% - 1px) / var(--statistic-item-count));
+    flex-grow: 1;
+    color: #fff;
+}
+
+.label {
+    font-size: 15px;
+}
+
+.percentage {
+    font-weight: 700;
+}
