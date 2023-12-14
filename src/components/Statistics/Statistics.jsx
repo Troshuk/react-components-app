@@ -3,8 +3,8 @@ import css from './Statistics.module.css';
 const Statistics = ({ stats, title = '' }) => {
   return (
     stats?.length > 0 && (
-      <section class={css.section}>
-        {title?.length > 0 && <h2 class={css.title}>{title}</h2>}
+      <section className={css.section}>
+        {title?.length > 0 && <h2 className={css.title}>{title}</h2>}
 
         <ul
           className={css.statList}
